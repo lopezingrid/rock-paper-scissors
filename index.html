@@ -2,10 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock, Paper and Scissors Game</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <script src="scripts/script.js" defer></script> 
+    <div class="gameWrapper">
+        <h1 class="header">Rock, Paper or Scissors?</h1>
+        <p class="para-text">The first player to earn 5 points wins.</p>
+
+        <div class = "btnsGame">
+            <div id="userBtns">
+                <h2>You have to select:</h2>
+                <div class="buttons">
+                    <button class="button userBtn" id="rockBtnUser" data-button="rock">Rock</button>
+                    <button class="button userBtn" id="paperBtnUser" data-button="paper">Paper</button>
+                    <button class="button userBtn" id="scissorsBtnUser" data-button="scissors">Scissors</button>
+                </div>
+                <div id="userDiv">
+                <h2>Player score:</h2>
+                <h1 id="playerScore">0</h1>
+
+            </div>
+
+            </div>
+            <div id="computerBtns">
+                <h2>Computer selection:</h2>
+                <div class="buttons">
+                    <button class="computerBtn" id="rockBtnComputer">Rock</button>
+                    <button class="computerBtn" id="paperBtnComputer">Paper</button>
+                    <button class="computerBtn" id="scissorsBtnComputer">Scissors</button>
+                </div>
+                <div id="computerDiv">
+                    <h2>Computer score:</h2>
+                    <h1 id="computerScore">0</h1>
+                </div>
+            </div>
+        </div>
+        
+        <!--
+        <div class="scores"> 
+            <div id="userDiv">
+                <h3>Player score:</h3>
+                <h2 id="playerScore">0</h2>
+            </div>
+            <div id="computerDiv">
+                <h3>Computer score:</h3>
+                <h2 id="computerScore">0</h2>
+            </div>
+        </div>
+    -->
+
+        <div id="resultsGame">
+
+        </div>
+    </div>
+    
+<script src="scripts/script4.js" defer></script>
 </body>
 </html>
