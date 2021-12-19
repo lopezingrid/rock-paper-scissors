@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(29, 31, 39);
+    color: #dad5d5;
+}
+
+.gameWrapper {
+    text-align: center;
+}
+
+.btnsGame {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin: 50px 20px; 
+}
+
+#userBtns, #computerBtns {
+    background-color: rgb(46, 47, 65);;
+    border: 2px solid rgb(67, 63, 77);
+    border-radius: 12px;
+    padding: 10px 100px
+}
+
+.buttons {
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    background-color: rgb(214, 214, 214);
+    padding: 16px 25px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button.userBtn {
+    border: 1px solid rgb(141, 137, 137);
+    background-color: rgb(238, 194, 194);
+}
+
+button.userBtn:hover {
+    background-color: rgb(226, 164, 164);
+    transform: scale(1.05);
+    border: 0.5px solid rgb(255, 180, 180);;
+    box-shadow: 0 0 5px rgb(255, 255, 255)
+}
+
+button.computerBtn {
+    background-color: rgb(172, 172, 172);
+    color: rgb(70, 70, 70);
+}
+
+.header {
+    font-size: 40px;
+}
+
+.para-text {
+    font-size: 20px;
+}
+
+.header, .para-text {
+    color: rgb(255, 119, 119);
+}
+
+#computerScore, #playerScore {
+    color: rgb(255, 119, 119);
+}
